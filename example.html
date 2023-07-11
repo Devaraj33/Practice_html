@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Box inside the Box example</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .outer-box {
+            width: 100px;
+            height: 100px;
+            border: 2px solid blue;
+            background-color: #f29346;
+            display: flex;
+            justify-content: center;
+            margin: auto;
+        }
+
+        .inner-box {
+            height: 50px;
+            width: 50px;
+            background-color: red;
+            border: 2px solid black;
+            margin: auto;
+        }
+    </style>
+</head>
+
+
+<body>
+    <div class="outer-box">
+        <div class="inner-box">
+        </div>
+    </div>
+</body>
+
+</html>

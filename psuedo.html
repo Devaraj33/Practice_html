@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      .Login-form{
+        width: 300px;
+        margin: auto;
+      }
+      .Login-form input{
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 15px;
+        border: 1px solid;
+        outline: 2px solid rgb(84, 194, 185);
+        outline-width: 2px;
+        border-top: #4caf50;
+        border-bottom: red;
+        /*border-radius: 20px;*/ 
+      }
+      .Login-form button{
+        width: 50%;
+        padding: 10px;
+        background-color: #4caf50;
+        color: white;
+        border-radius: 10px;
+        cursor: pointer;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+      }
+      .Login-form button:hover  {
+         color: red;
+      }
+      .Login-form p{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      } 
+      .form{
+        width: 100%;
+        height: 100%;
+        border:2px solid;
+        background-color: yellow;/* backgroung color not extende for outline-offset*/
+        outline: 3px solid green;
+        display: flex;
+        justify-content: center ;
+        outline-offset: 3px;
+        
+      }
+      p{
+       color: #4caf50;
+      }
+      .one{
+        color: red;
+      }
+      .box-model{
+        width: 30%;
+        border:1px solid salmon;
+        padding: 1%;
+        margin: right;
+        display: flex;
+        justify-content: center;
+        align-items:center;
+        margin: 0 auto;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="Login-form">
+    <form>
+    <input type="text" name="userName" placeholder="Enter UserName Here">
+    <input type="password" name="password" placeholder="Enter password Here">
+    <button type="submit">Login</button>
+    <p>&#128512;</p>
+    </form>
+</div>
+<div class="form">
+  <form>
+  <input type="text" name="userName" placeholder="Enter UserName Here">
+</form>
+</div>
+<p>Devaraj alone can do anthing<span class="one"> he can do hard</span>works at anytime</p>
+<div class="box-model">
+  <marquee><img src="thinkbig.PNG" target="img"> </marquee>
+ 
+</div>
+  </body>
+</html>
